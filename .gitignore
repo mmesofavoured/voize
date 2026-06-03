@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+db.sqlite3
+*.log
+
+# Media files (audio uploads)
+media/
+
+# Node
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
