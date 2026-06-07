@@ -2,7 +2,6 @@ import { useState, useRef } from 'react';
 import { Loader, Copy, Check, AlertCircle, Globe } from 'lucide-react';
 import api from '../api/axios';
 // At the top of SpeechToText.jsx add:
-const BASE = process.env.REACT_APP_API_URL?.replace('/api', '') || 'http://127.0.0.1:8000';
 const LANGUAGES = [
   { label: '🇺🇸 English (US)',       code: 'en-US' },
   { label: '🇬🇧 English (UK)',        code: 'en-GB' },

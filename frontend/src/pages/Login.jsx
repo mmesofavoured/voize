@@ -110,12 +110,12 @@ export default function Login() {
                 <div className="flex justify-between items-center mb-2">
                   <label className="text-sm font-medium"
                     style={{ color: '#c9c4d8', fontFamily: 'Inter, sans-serif' }}>Password</label>
-                  <a href="#" className="text-xs transition-colors"
+                  <button type="button" className="text-xs transition-colors"
                     style={{ color: '#cabeff', fontFamily: 'Inter, sans-serif' }}
                     onMouseEnter={e => e.target.style.color = '#e6deff'}
                     onMouseLeave={e => e.target.style.color = '#cabeff'}>
                     Forgot password?
-                  </a>
+                  </button>
                 </div>
                 <div style={inputWrapStyle}
                   onFocusCapture={e => e.currentTarget.style.borderColor = '#7C5CFF'}
