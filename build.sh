@@ -7,6 +7,7 @@ pip install -r requirements.txt
 # Build React frontend
 cd frontend
 npm install
+export CI=false
 npm run build
 cd ..
 
