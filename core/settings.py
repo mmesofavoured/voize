@@ -109,6 +109,9 @@ CORS_ALLOWED_ORIGINS = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
+# Allow CORS for media files specifically
+CORS_URLS_REGEX = r'^/(api|media)/.*$'
+
 # JWT
 from datetime import timedelta
 SIMPLE_JWT = {
