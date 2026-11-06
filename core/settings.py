@@ -13,7 +13,7 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '.onrender.com',
+    'websitedeveloper.pythonanywhere.com',
     '*',
 ]
 
@@ -105,7 +105,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://voize.onrender.com',
+    'https://websitedeveloper.pythonanywhere.com',
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
